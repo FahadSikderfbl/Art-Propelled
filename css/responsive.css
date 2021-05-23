@@ -1,0 +1,512 @@
+/*============================= Responsive For Extra Small Devices ============================================================*/
+
+@media (min-width:0px) and (max-width:575px){
+
+    .Topbar {
+        display: none;
+    }
+
+    .Header .selector {
+        display: none;
+    }
+
+    .Header .icons {
+        display: none;
+    }
+
+    .Navbar {
+        display: none;
+    }
+
+    .Banner {
+        height: 40vh;
+    }
+
+    .Banner .slidee-1 .slide-1-content {
+        width: 260px;
+        height: 270px;
+    }
+
+    .Banner .slidee-1 .slide-1-content .content img {
+        margin: 10px 0px 0px 0px;
+        height: 50px;
+    }
+
+    .Banner .slidee-1 .slide-1-content .content {
+        transform: translate(103px, 45px);
+    }
+
+    .Banner .slidee-1 .slide-1-content .content h2 {
+        margin: 15px 0px 0px -66px;
+        font-size: 25px;
+    }
+
+    .Banner .slidee-1 .slide-1-content .content h3 {
+        font-size: 25px;
+        margin: 10px 0px 0px -36px;
+    }
+
+    .Banner .slidee-1 .slide-1-content .content .link {
+        margin: 0px 0px 0px -6px;
+    }
+
+    .Banner .slidee-1 .slide-1-content .content .link a {
+        font-size: 10px;
+    }
+
+    .Banner .controls .prev {
+        margin: 0px 0px 0px 5px;
+    }
+
+    .Banner .controls .prev img {
+        height: 20px;
+    }
+
+    .Banner .controls .prev img:hover{
+        height: 25px;
+    }
+
+    .Banner .slidee-2 .slide-2-content .content {
+        transform: translate(92px, 15px);
+    }
+
+    .Banner .slidee-2 .slide-2-content .content h2 {
+        margin: 15px 0px 0px -85px;
+        font-size: 40px;
+    }
+
+    .Banner .slidee-2 .slide-2-content .content .leafs {
+        margin: 30px 0px 0px -17px;
+    }
+
+    .Banner .slidee-2 .slide-2-content .content h1 {
+        margin: 0px 0px 0px -80px;
+        font-size: 33px;
+    }
+
+    .Banner .slidee-2 .slide-2-content .content .link a {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .Banner .slidee-2 .slide-2-content .content .link {
+        margin: 10px 0px 0px 0px;
+    }
+    
+    .Banner .slidee-2 .slide-2-content .content .leafs img {
+        height: 20px;
+    }
+
+    .Banner .slidee-3 .slide-3-content {
+        margin-top: 40px;
+    }
+
+    .Banner .slidee-3 .slide-3-content h2 {
+        font-size: 39px;
+    }
+
+    .Banner .slidee-3 .slide-3-content .highligts img {
+        height: 15px;
+    }
+
+    .Banner .slidee-3 .slide-3-content .shop-now {
+        margin: 10px 0px 0px 50px;
+    }
+
+    .Banner .slidee-3 .slide-3-content .shop-now a {
+        font-size: 10px;
+        padding: 0 20px;
+    }
+
+    .Banner .slidee-3 .slide-3-content .highligts {
+        margin: 5px 0px 0px 0px;
+    }
+
+    .Banner .slidee-3 .slide-3-content .highligts h1 {
+        font-size: 18px;
+    }
+
+    .Banner .controls .next {
+        top: 48%;
+        right: -45px;
+    }
+
+    .Banner .controls .next img {
+        height: 20px;
+    }
+
+    .Banner .controls .next img:hover{
+        height: 25px;
+    }
+
+    .Banner .slidee-2 .slide-2-content {
+        height: 270px;
+        width: 270px;
+    }
+
+    .Offers {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .Offers .headings {
+        margin: 0px 0px 60px 0px;
+    }
+
+    .Offers .headings h2 {
+        font-size: 27px;
+    }
+
+    .Offers .headings .making-crafting img {
+        height: 15px;
+        margin: -13px -10px 0px -10px;
+    }
+
+    .Offers .headings .making-crafting h1 {
+        font-size: 23px;
+    }
+
+    .Offers .offer-40 {
+        display: none;
+    }
+
+    .Offers .sale-banner .offer-10 .btn {
+        padding: 5px 15px;
+        letter-spacing: 1px;
+    }
+
+    .Offers .sale-banner .offer-10 h3 {
+        font-size: 25px;
+    }
+
+    .Offers .sale-banner p {
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    .Product-sliders {
+        margin-top: 40px;
+    }
+
+    .Product-sliders .swiper-container .swiper-wrapper .swiper-slide .banner .product-name h3 {
+        font-size: 1.2em;
+    }
+
+    .Product {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .Product .headings h2 {
+        font-size: 27px;
+    }
+
+    .Product .headings .highlightes img {
+        height: 15px;
+        margin: -13px -10px 0px -10px;
+    }
+
+    .Product .headings .highlightes h1 {
+        font-size: 23px;
+    }
+
+    .Product .gallery .row .col {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .Footer nav {
+        display: none;
+    }
+
+    .Footer .subscribe {
+        margin-top: 35px;
+    }
+
+    .Footer .subscribe input {
+        padding: 5px 100px;
+    }
+
+    .Footer .subscribe button {
+        padding: 5px 20px;
+        margin: 0px 0px 0px -28px;
+    }
+    
+
+
+
+
+}
+
+
+
+/*============================= Responsive For Small Devices ==================================================================*/
+
+@media (min-width:576px) and (max-width:767px){
+
+    .Topbar {
+        display: none;
+    }
+
+    .Header .selector {
+        display: none;
+    }
+
+    .Header .icons {
+        display: none;
+    }
+
+    .Navbar .main-nav li {
+        padding: 0px 8px 0px 8px;
+    }
+
+    .Banner {
+        height: 70vh;
+    }
+
+    .Banner .slidee-1 .slide-1-content {
+        width: 510px;
+        height: 510px;
+    }
+
+    .Banner .slidee-2 .slide-2-content {
+        height: 510px;
+        width: 510px;
+    }
+
+    .Banner .slidee-2 .slide-2-content .content {
+        transform: translate(200px, 85px);
+    }
+
+    .Banner .slidee-2 .slide-2-content .content .leafs img {
+        height: 28px;
+    }
+
+    .Banner .slidee-2 .slide-2-content .content h2 {
+        margin: 50px 0px 0px -163px;
+        font-size: 70px;
+    }
+
+    .Banner .slidee-2 .slide-2-content .content h1 {
+        margin: 10px 0px 0px -125px;
+        font-size: 60px;
+    }
+
+    .Banner .slidee-2 .slide-2-content .content .link a {
+        font-size: 18px;
+    }
+
+    .Banner .slidee-2 .slide-2-content .content .link {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .Banner .slidee-3 .slide-3-content h2 {
+        margin: 0px 0px 0px 40px;
+        font-size: 65px;
+    }
+
+    .Banner .slidee-3 .slide-3-content .highligts h1 {
+        font-size: 40px;
+    }
+
+    .Banner .slidee-3 .slide-3-content .highligts {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .Banner .slidee-3 .slide-3-content .shop-now a {
+        font-size: 18px;
+        padding: 0 35px;
+    }
+
+    .Banner .controls .prev {
+        margin: 0px 0px 0px 10px;
+    }
+
+    .Banner .controls .prev img:hover{
+        height: 35px;
+    }
+
+    .Banner .controls .next {
+        top: 49%;
+        right: -40px;
+    }
+
+    .Banner .controls .next img:hover{
+        height: 35px;
+    }
+
+    .Banner .slidee-1 .slide-1-content .content img {
+        margin: -20px 0px 0px 60px;
+        height: 100px;
+    }
+
+    .Banner .slidee-1 .slide-1-content .content h2 {
+        margin: 25px 0px 0px -70px;
+        font-size: 50px;
+    }
+
+    .Banner .slidee-1 .slide-1-content .content h3 {
+        font-size: 40px;
+        margin: 20px 0px 0px 15px;
+    }
+
+    .Banner .slidee-1 .slide-1-content .content .link {
+        margin: 40px 0px 0px 65px;
+    }
+
+    .Banner .slidee-1 .slide-1-content .content .link a {
+        font-size: 17px;
+    }
+
+    .Offers .headings h2 {
+        font-size: 50px;
+    }
+
+    .Offers .headings .making-crafting h1 {
+        font-size: 39px;
+    }
+
+    .Offers .offer-40 .bg {
+        height: 545px;
+        margin: -50px 0px 0px -20px;
+    }
+
+    .Offers .offer-40 .content {
+        transform: translate(205px, 30px);
+    }
+
+    .Offers .offer-40 .content img {
+        height: 45px;
+    }
+
+    .Offers .offer-40 .content h2 {
+        margin: 25px 0px 0px -75px;
+    }
+
+    .Offers .offer-40 .content .highlightes {
+        margin: 0px 0px 0px -15px;
+    }
+
+    .Offers .offer-40 .content .highlightes .text-1 {
+        font-size: 70px;
+    }
+
+    .Offers .offer-40 .content a {
+        margin: 0px 0px 0px 10px;
+        letter-spacing: 2;
+    }
+
+    .Offers .sale-banner .offer-10 .btn {
+        padding: 10px 25px;
+    }
+
+    .Product-sliders {
+        margin: 80px 0px 0px 0px;
+    }
+
+    .Product .headings h2 {
+        font-size: 50px;
+    }
+
+    .Product .headings .highlightes h1 {
+        font-size: 39px;
+    }
+
+    .Product .gallery .row .col {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .Footer nav ul li {
+        font-size: .8em;
+        margin: 0px 7px;
+    }
+
+    .Footer .subscribe input {
+        padding: 27px 96px;
+    }
+
+
+}
+
+/*============================= Responsive For Medium Devices =================================================================*/
+
+
+@media (min-width:768px) and (max-width:991px){
+
+    .Header .selector .dropdown .btn {
+        padding: 0;
+    }
+
+    .Header  .selector .right-line{
+        margin: 0px 10px 0px 10px;
+    }
+
+    .Offers .headings h2 {
+        font-size: 62px;
+    }
+
+    .Offers .headings .making-crafting h1 {
+        font-size: 50px;
+    }
+
+    .Offers .offer-40 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Offers .offer-40 .bg {
+        margin: -50px 0px 0px 0px;
+    }
+
+    .Offers .offer-40 .content {
+        transform: translate(260px, 30px);
+    }
+
+    .Product-sliders {
+        margin: 75px 0px 0px 0px;
+    }
+
+    .Product .headings h2 {
+        font-size: 62px;
+    }
+
+    .Product .headings .highlightes h1 {
+        font-size: 50px;
+    }
+
+}
+
+
+
+/*============================= Responsive For Large Devices ==================================================================*/
+
+@media (min-width:992px) and (max-width:1199px){
+
+    .Offers .offer-40 .bg {
+        height: 463px;
+        width: auto;
+        margin: -50px 0px 0px -10px;
+    }
+
+    .Offers .offer-40 .content img {
+        height: 40px;
+        width: auto;
+        margin: -15px 0px 0px 48px;
+    }
+
+    .Offers .offer-40 .content h2 {
+        font-size: 50px;
+    }
+
+    .Offers .offer-40 .content .highlightes .text-1 {
+        font-size: 70px;
+    }
+
+}
+
+
+
+/*============================= Responsive For Extra Large Devices ============================================================*/
+
+@media (min-width:1200px){
+
+}
