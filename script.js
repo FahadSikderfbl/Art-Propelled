@@ -5,6 +5,8 @@ const next = document.querySelector(".next");
 let index = 0;
 
 
+
+
 prev.addEventListener("click",function(){
     prevSlide();
 })
